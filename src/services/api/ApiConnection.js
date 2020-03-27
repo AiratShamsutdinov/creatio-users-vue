@@ -5,7 +5,7 @@ import axios from 'axios';
  * Создается инстанс axios, который используется всеми сервисам. Тут заложены базовые настройки для всех http запросов.
  */
 export const ApiConnection = axios.create({
-  baseURL: "http://localhost:60278/api/",
+  baseURL: "http://172.30.119.243:5000/api/",
   headers: {
     "Accept": "application/json",
     "Content-Type": "application/json"
